@@ -1,0 +1,468 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.section{
+    width:100%
+}
+.tion{
+    width:1280px;
+    margin:0 auto;
+}
+.list-inline{
+    margin-top:50px;
+    margin-left: 15px;
+    display: flex;
+}
+.list-inline li{
+    list-style: none;
+    font-size:12px;
+    color:#9d9894;
+    margin-right:10px;
+}
+.list-inline li a{
+    color:#9d9894;
+}
+.content{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.magnifier{
+    width:750px;
+    display: flex;
+    margin-top:55px;
+    margin-bottom:65px;
+}
+#bigBox{
+    position: relative;
+    width: 500px;
+    height:500px;
+    /* background:url("https://res.yslbeautycn.com/resources/2018/12/12/15446070755335219_500X500.jpg?version=20181228011034717") no-repeat; */
+    background-size: 500px 500px;
+    margin-left:60px;
+}
+.big_a{
+    text-align: center;
+    line-height:45px;
+    margin-bottom:20px;
+    display: block;
+    width:240px;
+    height:45px;
+    background:black;
+    color:white;
+    margin:0 auto;
+}
+.big_a img{
+    vertical-align:middle;
+}
+#bigBox .iconfont{
+    font-size:30px;
+    position: absolute;
+    right:0px;
+    top:0;
+    z-index:1;
+    color:#cacaca;
+}
+#bigBox .iconfont:hover{
+    color:black;
+}
+#mirrorBox {
+    position: absolute;
+    width: 167px;
+    height: 167px;
+    background-color: pink;
+    opacity: 0;
+    display: none;
+
+}
+#showBox {
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width: 500px;
+    height: 500px;
+    /* background: url("https://res.yslbeautycn.com/resources/2018/12/12/15446070755335219_500X500.jpg?version=20181228011034717") no-repeat; */
+    background-size: 1500px 1500px;
+    /*	background-position:-100px -200px;*/
+    display: none;
+}
+#imgs {
+    list-style: none;
+    float: left;
+}
+#imgs li {
+    width: 74px;
+    height: 74px;
+    margin: 10px;
+    background-size: cover;
+    border:1px solid #d9d9d9;
+}
+#imgs li:hover{
+    border:1px solid black;
+}
+/* #imgs li:nth-child(1) {
+    background-image: url("https://res.yslbeautycn.com/resources/2018/12/12/15446070755335219_500X500.jpg?version=20181228011034717");
+}
+#imgs li:nth-child(2) {
+    background-image:url("https://res.yslbeautycn.com/resources/2018/12/18/15451216637378830_500X500.jpg?version=20181228011034717");
+}
+#imgs li:nth-child(3) {
+    background-image:  url("https://res.yslbeautycn.com/resources/2018/12/7/15441600167817069_500X500.jpg?version=20181228011034717");
+}
+#imgs li:nth-child(4) {
+    background-image:url("https://res.yslbeautycn.com/resources/2018/12/11/15445096080741899_500X500.jpg?version=20181228011034717");
+} */
+.know{
+    width:425px;
+}
+.know h3{
+    font-size:24px;
+    font-weight: normal;
+}
+.know h4{
+    font-size:20px;
+    font-weight: normal;
+}
+.bot{
+    text-align: left;
+    margin-top:15px;
+    margin-bottom:25px;
+}
+.bot .iconfont{
+    color:#c9c9c9;
+    font-size: 12px;
+}
+.bot a{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.know p{
+    font-size: 14px;
+    color:#c9c9c9;
+}
+.about{
+    margin-bottom:30px;
+    display: flex;
+    justify-content: space-between;
+}
+.about a{
+    font-size: 14px;
+}
+.scrollBox{ width:425px;border-top:1px solid #fff; position:relative; }
+.scrollBox .piclist{ overflow:hidden;display: flex;}
+.scrollBox .ohbox{overflow:hidden; position:relative;width:818px;left:60px}
+.scrollBox {position:relative;overflow:hidden;zoom:1;}
+ .scrollBox .piclist li{ width:25px;height:25px;border:1px solid #c9bea9;position: relative;list-style: none;margin-right: 15px;}
+.scrollBox .piclist li a img{width:20px;height:20px;position: absolute;left: 0;top:0;right:0;bottom:0;margin:auto;}
+.article-product .product-right .product-color .product-color-select {
+    padding-bottom: 30px;
+}
+
+.first_color{
+    margin-top:30px;
+    width:425px;
+    height:40px;
+    border:1px solid #c9c9c9;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.first_color span{
+    margin-left: 10px;
+}
+.first_color span img{
+    width:20px;
+    height:20px;
+}
+.a1{
+    position:absolute;
+    right:5px;
+    top:15px;
+    display: none;
+}
+.a2{
+    position:absolute;
+    right:5px;
+    top:15px;
+}
+.color_box{
+    border:1px solid #c9c9c9;
+    border-top:none;
+    width:425px;
+    height:200px; 
+    overflow: auto;
+    display: none;
+}
+.color_box ul li{
+    list-style: none;
+    margin-top:15px;
+    margin-left:10px;
+}
+.color_box ul li span img{
+    width:20px;
+    height:20px; 
+}
+.form-checkbox span{
+    font-size:14px;
+}
+.product-service{
+    margin-top:35px;
+}
+.product-service p{
+    font-size:14px;
+    line-height: 28px; 
+}
+.num input{
+    width:125px;
+    height:45px;
+    text-align: center;
+}
+.num{
+    display: flex;
+    align-items: center; 
+    margin-top:40px;
+}
+.num span{
+    display: flex;
+    margin-left: 15px;
+   
+}
+.num span a:first-of-type{
+    background:#232323;
+}
+.num span a:last-of-type:hover{
+    background:white;
+    color:black;
+    border:1px solid black;
+}
+.num span a{
+    line-height: 45px;
+    text-align: center;
+    display: block;
+    width:145px;
+    height:45px;
+    background:black;
+    color:white;
+}
+#thing:hover{
+    background:white;
+    color:black;
+    border:1px solid black;
+}
+#thing{
+    line-height: 45px;
+    text-align: center;
+    display: block;
+    width:145px;
+    height:45px;
+    background:black;
+    color:white;
+}
+.Product_details{
+    background:#f7f7f7;
+}
+.info-tab{
+    width:1280px;
+    margin:0 auto;
+    height:90px;
+    border-bottom:1px solid #d9d9d9;
+}
+.info-tab li {
+    margin-left: 65px;
+    list-style: none;
+    font-size: 18px;
+    line-height: 90px;
+}
+.info-list{
+    height:180px;
+    width:100%;
+    border-bottom:1px solid #d9d9d9;
+}
+.info-detail{
+    font-size: 14px;
+    margin-top:32px;
+    margin-left: 100px;
+}
+.comment{
+    width:100%;
+    background:#f7f7f7;
+    padding-top:70px;
+    padding-bottom:60px;
+}
+.comment h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom:60px;
+}
+.comment_list{
+    margin:0 auto;
+    background:white;
+    width:1280px;
+    display: flex;
+    height:140px;
+    border-bottom:1px solid #d9d9d9;
+    align-items: center;
+}
+.comment_list p{
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 45px;
+}
+.xin span{
+    font-size: 14px;
+}
+.xin .iconfont{
+    font-size: 14px;
+    color:#cacaca;
+}
+.button{
+    width:180px;
+    height:45px;
+    border:1px solid black;
+    text-align: center;
+    line-height: 45px;
+    background: white;
+    margin-left: 570px;
+}
+.button:hover{
+    background:black;
+    color:white;
+}
+.comment_bot{
+    margin:0 auto;
+    background:white;
+    width:1280px;
+}
+.comment_bot p{
+    font-size: 14px;
+    margin-left: 60px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prod{
+    width:280px;
+    margin-top:35px;
+    margin-bottom:35px;
+    position: relative;
+    margin-right:35px;
+    border:1px solid #d9d9d9;
+}
+.prod_color{
+    display: flex;
+    justify-content: center;
+}
+.prod_color li{
+    list-style: none;
+    width:30px;
+    height:30px
+}
+.prod_color li img{
+    widows:20px;
+    height:20px 
+}
+.word{
+    width:200px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:40px;
+}
+.word a{
+    width:200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:14px;
+   color:#000004;
+   line-height:20px;
+   margin-top:10px;
+   display: block;
+}
+.word a:hover{
+ text-decoration: underline;
+}
+.bot .iconfont{
+    color:black;
+    font-size:14px;
+}
+.bot span:first-of-type{
+    color:#d9d9d9;
+    font-size:20px;
+    margin:0 20px;
+}
+.bot span:last-of-type{
+    font-size:14px;
+}
+.bot{
+    text-align: center;
+    /* margin-bottom:35px; */
+}
+.mask{
+    width:240px;
+    height:400px;
+    background:rgba(255,255,255,.6);
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+}
+.mas{
+	display: flex;
+	margin:0 auto;
+	margin-top:100px;
+	width:150px;
+	height:40px;
+	background:rgb(0,0,0);
+	color:white;
+	justify-content: center;
+	align-items: center;
+}
+.mas .iconfont{
+	color:white;
+}
+.ma{
+	margin:0 auto;
+	display: flex;
+	margin-top:20px;
+	width:150px;
+	height:40px;
+	justify-content: center;
+	align-items: center;
+	border:1px solid black;
+	background:rgb(255,255,255);
+}
+.mas:hover{
+	border:1px solid black;
+	background:rgb(255,255,255);
+	color:black;
+}
+.mas:hover .iconfont{
+	color:black;
+}
+.ma:hover {
+	background:rgb(0,0,0);
+	color:white;
+}
+.imgs_mask:hover .mask{
+    display: block;
+}
+.user_bottom{
+    margin-top:100px;
+    text-align: center;
+    width:1280px;
+    margin:0 auto;
+    margin-bottom:60px;
+}
+.user_bottom h3{
+    font-size: 32px;
+    font-weight: normal;
+    margin-top:55px;
+}

@@ -1,0 +1,257 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+section{
+    width:100%；
+}
+.tion{
+    width:1280px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_left{
+    width:940px;
+    padding-bottom:120px;
+}
+.as_1{
+    font-size: 12px;
+    color:#999999;
+}
+.as_1 a{
+    font-size: 12px;
+    color:#999999;
+}
+.past{
+    margin:53px 0 53px 35px;
+}
+.past h2{
+    font-size:22px;
+}
+.past_ul{
+    margin-top:18px;
+    margin-bottom:55px;
+    display: flex;
+    align-items: center;
+}
+.past_ul li img{
+    position: absolute;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.past_ul li{
+    position: relative;
+    list-style: none;
+    margin-right: 25px;
+    border:1px solid #ebebeb;
+    width:40px;
+    height:40px;
+}
+.past_ul p{
+    margin-right: 25px;
+    font-size:14px; 
+}
+.lp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line{
+    width:860px;
+    height:1px;
+    background:#dbdbdb;
+    position: relative;
+    margin-bottom:55px;
+}
+.line span{
+    text-align: center;
+    line-height: 26px;
+    width:56px;
+    height:26px;
+    background:white;
+    z-index: 1;
+    position: absolute;
+    left:455px;
+    top:-12px;
+}
+.new{
+    margin-left: 35px;
+}
+.new h1{
+    font-size:30px;  
+}
+.call{
+    font-size:14px; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom:35px;
+    margin-top:35px;
+}
+.ca{
+    display: flex;
+    align-items: center;  
+}
+.call input{
+    margin-left: 30px;
+}
+.call span{
+    color:red;
+}
+.user_input{
+    display: flex;
+    justify-content: space-between;
+}
+.user_ul p{
+    font-size:14px; 
+    margin-bottom:10px;
+}
+.user_ul span{
+    color:red;
+}
+.user_ul{
+    margin-bottom:30px;
+    position:relative;
+}
+.user_ul input{
+    width:425px;
+    height:53px;
+    border:1px solid #dadada;
+}
+.user_ul li{
+    list-style: none;
+    width:425px;
+    height:22px;
+    background:#f2f2f2;
+}
+.user_ul li .strong{
+    width:5px;
+    height:22px; 
+    background:#d9534f;
+}
+.user_ul li .str_p{
+    font-size: 12px;
+   position:absolute;
+   left:10px;
+   top:3px;
+}
+.sp{
+    color:red;
+    clear: both;
+    display: none; 
+}
+.user_ul .text{
+    width:220px;
+    margin-right: 35px;
+    float: left;
+}
+.check{
+    width:60px;
+    height:53px;
+    border:1px solid #dadada;
+    float: left;
+}
+.user_ul  .lastp{
+    margin-left:10px;
+    float: left;
+    line-height: 52px;
+}
+.user_ul a{
+    margin-left:10px;
+    float: left;
+    line-height: 52px;
+    color:#3f3f3f;
+}
+.user_ul .button{
+    width:150px;
+    height:52px;
+    background: black;
+    color:white;
+}
+.user_ul .button:hover{
+    background: white;
+    color:black;
+    border:1px solid black;
+}
+.cond{
+    margin-bottom:40px;
+}
+.cond input{
+    margin-top:20px;
+}
+.cond span{
+    font-size: 14px;
+}
+.button{
+    width:150px;
+    height:52px;
+    background: black;
+    color:white;  
+}
+ .button:hover{
+    background: white;
+    color:black;
+    border:1px solid black;
+}
+
+.word_top{
+    margin-top:58px;
+    margin-bottom:20px;
+    width:300px;
+    background:#f2f2f2;
+    padding-top:25px;
+    padding-bottom:45px;
+}
+.word_top h3{
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+}
+.word_top h4{
+    font-size:18px;
+    text-align: center;
+   margin-top: 32px;
+}
+.word_top p{
+    font-size:14px;
+    color:#999999;
+    text-align: center;
+   margin-top:16px;
+}
+.word_top p a{
+    color:#999999;
+    cursor: pointer; 
+}
+.word_bottom{
+    width:300px;
+    background:#f2f2f2;
+    padding-top:25px;
+    padding-bottom:45px;
+}
+.word_bottom h3{
+    margin-bottom:20px;
+    font-size:26px;
+    font-weight:normal;
+    text-align: center;
+}
+.word_bottom p{
+    line-height:22px;
+    font-size:14px;
+    text-align: center;
+}
+.word_bottom p span{
+    font-weight: 900;
+}
+.word_bottom .button{
+    margin-left:70px;
+    margin-top:20px;
+}
